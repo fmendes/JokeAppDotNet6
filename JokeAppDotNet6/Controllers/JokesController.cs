@@ -33,7 +33,7 @@ namespace JokeAppDotNet6.Controllers
         }
 
         // GET: Jokes
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index()git
         {
             return View(await _context.Joke.ToListAsync());
         }
